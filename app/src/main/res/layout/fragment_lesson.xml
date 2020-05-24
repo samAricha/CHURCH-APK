@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.LessonFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/openurlBtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="open url " />
+
+
+    <EditText
+        android:id="@+id/etLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/openurlBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="608dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="https://ssnet.org/lessons/20a/less02.html"
+        android:textColor="@color/common_google_signin_btn_text_light_focused"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="596dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp" />
+</RelativeLayout>
